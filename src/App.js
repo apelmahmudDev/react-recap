@@ -1,13 +1,11 @@
 import React from "react";
-import ClickCounter from "./ClickCounter.js";
 import "./App.css";
-import HoverCounter from "./HoverCounter.js";
+import Layout from "./Layout";
 
 const App = () => {
 	return (
 		<div className="App">
-			<ClickCounter />
-			<HoverCounter />
+			<Layout />
 		</div>
 	);
 };
